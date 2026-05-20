@@ -98,11 +98,11 @@ async function seedDatabase() {
         }
 
         console.log("\n✅ Database seeding completed successfully!");
-        process.exit(0);
+        // process.exit(0);
 
     } catch (error) {
         console.error("❌ Seeder error:", error.message);
-        process.exit(1);
+        // process.exit(1);
     }
 }
 
