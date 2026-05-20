@@ -36,11 +36,11 @@ async function seedAdmin() {
         await userRepo.save(admin);
 
         console.log("✅ Admin created successfully");
-        process.exit(0);
+        // process.exit(0);
 
     } catch (error) {
         console.error("❌ Seeder error:", error);
-        process.exit(1);
+        // process.exit(1);
     }
 }
 
