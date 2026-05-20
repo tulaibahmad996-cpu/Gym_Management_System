@@ -45,7 +45,7 @@
 //     console.error('Failed to initialize database connection:', error);
 //   });
 
- await require('./src/seed/adminSeeder')();
+require('./src/seed/adminSeeder');
 
 require('dotenv').config();
 require('reflect-metadata');
