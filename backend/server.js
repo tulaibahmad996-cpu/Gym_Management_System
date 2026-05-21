@@ -55,7 +55,7 @@ const cors = require('cors');
 const path = require('path');
 
 const dataSource = require('./src/config/datasource');
-
+app.use(express.json());
 // Routes
 const authRoutes = require('./src/routes/authRoutes');
 const userRoutes = require('./src/routes/userRoutes');
